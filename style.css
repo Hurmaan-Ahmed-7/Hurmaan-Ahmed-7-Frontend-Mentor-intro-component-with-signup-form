@@ -2,10 +2,11 @@
 body{
     background-image: url(/images/bg-intro-desktop.png);
     background-color: var(--Red);
+    margin: 0;
 }
 :root{
     --Red: hsl(0, 100%, 74%); 
-    --Green: hsl(154, 59%, 51%;);
+    --Green: hsl(154, 59%, 51%);
     --Blue: hsl(248, 32%, 49%);
     --DarkBlue: hsl(249, 10%, 26%);
     --GrayishBlue: hsl(246, 25%, 77%);
@@ -16,8 +17,22 @@ body{
     font-family: var(--font-style);
 }
 
-h1{
+/* main{
+    display: flex;
+}
 
+main > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 50%;
+} */
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 #about{
@@ -25,29 +40,43 @@ h1{
 }
 
 #about > p{
-
+    font-weight: 600;
 }
 
 #takeInput{
 
 }
 
+#form{
+    background-color: white;
+}
+
 #CTA{
-    
+   background-color: var(--Blue);
+   padding: 1em;
+   text-align: center;
 }
 
 .textInput{
-
+    font-family: var(--font-style);
+    padding: 1em;
+    
 }
 
 button{
-
+    background-color: var(--Green);
+    border: none;
+    padding: 1em;
 }
 
 #terms{
-
+    font-family: var(--font-style);
+    color:var(--GrayishBlue);
+    font-size: 0.9em;
 }
 
 a{
-
+    color: var(--Red);
+    text-decoration: none;
+    font-weight: 500;
 }
