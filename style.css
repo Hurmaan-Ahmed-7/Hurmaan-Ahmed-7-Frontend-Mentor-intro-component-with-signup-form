@@ -8,3 +8,43 @@
     --GrayishBlue: hsl(246, 25%, 77%);
     --font-style: 'Poppins', sans-serif;
 }
+.whiteFont{
+    color: white;
+    font-family: var(--font-style);
+}
+
+h1{
+
+}
+
+#about{
+
+}
+
+#about > p{
+
+}
+
+#takeInput{
+
+}
+
+#CTA{
+    
+}
+
+.textInput{
+
+}
+
+button{
+
+}
+
+#terms{
+
+}
+
+a{
+
+}
