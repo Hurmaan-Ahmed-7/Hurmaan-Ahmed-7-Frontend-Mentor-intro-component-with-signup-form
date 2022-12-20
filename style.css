@@ -35,10 +35,6 @@ h1{
     font-weight: 700;
 }
 
-#about{
-
-}
-
 #about > p{
     font-weight: 600;
 }
@@ -56,6 +52,9 @@ h1{
     display: flex;
     flex-direction: column;
     padding: 2em;
+    -webkit-box-shadow: 0px 7px 2px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 7px 2px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 2px 0px rgba(0,0,0,0.3);
 }
 
 #form > *{
@@ -68,7 +67,7 @@ h1{
    text-align: center;
    -webkit-box-shadow: 0px 7px 2px 0px rgba(0,0,0,0.3);
    -moz-box-shadow: 0px 7px 2px 0px rgba(0,0,0,0.3);
-   box-shadow: 0px 7px 2px 0px rgba(0,0,0,0.3);
+   box-shadow: 0px 5px 2px 0px rgba(0,0,0,0.3);
 }
 
 .textInput{
@@ -112,4 +111,27 @@ a{
     color: var(--Red);
     text-decoration: none;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 375px){
+    main{
+        flex-direction: column;
+        padding: 0 3% 0 3%;
+    }
+    h1{
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    #about{
+        min-height: 20%;
+    }
+    #about > *{
+        text-align: center;
+    }
+    #CTA{
+        padding: 1em 3em 1em 3em;
+    }
+    #form{
+        padding: 0.5em;
+    }
 }
